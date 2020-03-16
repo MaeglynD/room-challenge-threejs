@@ -109,8 +109,8 @@
 				Information
 			</v-card-title>
 			<v-card-text>
-				Click to place a block <br>
-				Shift + click to remove a block
+				Left click to place a block <br>
+				Shift + left click to remove a block
 			</v-card-text>
 			<v-divider></v-divider>
 			<v-card-actions>
@@ -257,7 +257,7 @@ export default {
 		onDocumentMouseDown(event) {
 			event.preventDefault();
 
-			if (event.which === 1) {
+			if (event.which === 3) {
 				mouse.set(
 					(event.clientX / window.innerWidth) * 2 - 1,
 					-(event.clientY / window.innerHeight) * 2 + 1,
