@@ -1,5 +1,7 @@
 # dimensions
 
+WIP, webGL room builder that (will soon) show live volume, floor area and paint required
+
 ## Project setup
 ```
 npm install
